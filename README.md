@@ -4,7 +4,7 @@
 # 目标：
     原意为色盲患者识别屏幕的颜色，识别折线图中不同的折线颜色。
 # 原理：
-    通过键盘输入按键（默认空格键）获取当前鼠标的像素值，显示在屏幕上，方便找到一样颜色的折线。
+    通过键盘输入按键（默认空格键）获取当前鼠标的像素值，显示在屏幕上，同时显示像素的颜色名称，方便找到一样颜色的折线。
 # 使用方式：
     1.python GetPixel.py
     2.跳转到要识别的页面，点击选中程序框
@@ -19,3 +19,4 @@
     安装tkinter, macOS建议使用python3.7.0，自带tkinter6.8，同时运行tkinker系统不会崩溃。
     pip install pillow
     pip install PyUserInput
+    pip install webcolors
